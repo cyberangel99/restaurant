@@ -1,3 +1,7 @@
 export default function Hero() {
-    return <h1>hero image</h1>
+    return (
+        <div id="hero">
+        </div>
+
+    )
 }
