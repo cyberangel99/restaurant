@@ -7,9 +7,26 @@
     .column_1 {
         background-color: #3C0E0E;
     };
-
+    .column_2 {
+        width: 100%;
+        padding:0;
+        margin:0;
+    };
+    .slick-slider {
+        width: 100%;
+    };
+    .slick-slide {
+        height: 100vh;
+    }
+    .hero-image {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        height: 100vh;
+    };
     .hero_col {
         height: 100vh;
+        margin:0;
     }
     .aroma-logo {
         margin-top: 30%;
