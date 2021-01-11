@@ -6,13 +6,14 @@ import "slick-carousel/slick/slick-theme.css";
 export default function HeroSlider() {
   var settings = {
     arrows: false,
-    autoplay: false,
-    autoplaySpeed: 1000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    fade: true
   };
   return (
     <Slider {...settings}>
