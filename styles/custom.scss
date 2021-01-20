@@ -6,6 +6,7 @@
 
     .column_1 {
         background-color: #3C0E0E;
+        text-align: center;
     };
     .column_2 {
         width: 100%;
@@ -30,15 +31,24 @@
     }
     .aroma-logo {
         margin-top: 25%;
-        margin-left: 60px;
+        margin-left: 5px;
     }
 
 
 }
-#navbar {
-    background-color:#fbac1b;
-    margin-top: 10px;
-    
+
+#navigation {
+    display: inline-block;
+    padding: 10px;
+
+    .navbar {
+        background-color:#e69c14;
+        text-align: center;
+    }
+    .nav li a{
+        color: white;
+    }
 }
+
     
 
