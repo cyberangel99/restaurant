@@ -5,8 +5,8 @@ import Slider from 'react-slick';
 export default function Menu() {
     var settings = {
         arrows: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
+        autoplay: false,
+        autoplaySpeed: 3000,
         dots: false,
         infinite: true,
         speed: 500,
@@ -20,13 +20,25 @@ export default function Menu() {
             <div className="menu-slider container-sm">
                 <Slider {...settings}>
                     <div>
-                        <img src="/images/menu-image1.jpg" />
+                        <img src="/images/menu-image6.jpg" className="menu-image" />
                     </div>
                     <div>
-                        <img src="/images/menu-image2.jpg" />
+                        <img src="/images/menu-image2.jpg" className="menu-image"/>
                     </div>
                     <div>
-                        <img src="/images/menu-image3.jpg" />
+                        <img src="/images/menu-image3.jpg" className="menu-image" />
+                    </div>
+                    <div>
+                        <img src="/images/menu-image4.jpg" className="menu-image" />
+                    </div>
+                    <div>
+                        <img src="/images/menu-image5.jpg" className="menu-image" />
+                    </div>
+                    <div>
+                        <img src="/images/menu-image7.jpg" className="menu-image" />
+                    </div>
+                    <div>
+                        <img src="/images/menu-image8.jpg" className="menu-image" />
                     </div>
                 </Slider>
             </div>
